@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 
+:root {
+  --redlike: #bd2929;
+  --blacklike: #0e1a26;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+}
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -30,7 +37,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #e67e22;
+  background: var(--redlike);
   border-radius: 5rem;
 }
 
@@ -50,7 +57,7 @@ section {
 }
 
 .heading span {
-  color: #e67e22;
+  color: var(--redlike);
 }
 
 .btn {
@@ -156,7 +163,7 @@ section {
 }
 
 .header .navbar a:hover {
-  color: #e67e22;
+  color: var(--redlike);
 }
 
 .header .icons a,
@@ -169,7 +176,7 @@ section {
 
 .header .icons a:hover,
 .header .icons div:hover {
-  color: #e67e22;
+  color: var(--redlike);
 }
 
 .header .login-form {
@@ -250,7 +257,7 @@ section {
 
 .header .login-form .links a {
   font-size: 1.4rem;
-  color: #e67e22;
+  color: var(--redlike);
 }
 
 .header .login-form .links a:hover {
@@ -290,7 +297,7 @@ section {
 }
 
 .home .content h3 span {
-  color: #e67e22;
+  color: var(--redlike);
 }
 
 .home .content .btn {
@@ -340,6 +347,7 @@ section {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
+  padding-top: 124px;
 }
 
 .about .content h3 {
@@ -348,7 +356,7 @@ section {
 }
 
 .about .content h3 span {
-  color: #e67e22;
+  color: var(--redlike);
 }
 
 .about .content p {
@@ -385,7 +393,7 @@ section {
   line-height: 6.5rem;
   font-size: 3rem;
   color: #fff;
-  background: #e67e22;
+  background: var(--redlike);
   border-radius: 50%;
   margin-bottom: .5rem;
 }
@@ -422,7 +430,7 @@ section {
 
 .plan .box-container .box .title {
   text-align: center;
-  color: #e67e22;
+  color: var(--redlike);
   font-size: 2rem;
 }
 
@@ -434,7 +442,7 @@ section {
 }
 
 .plan .box-container .box .icon {
-  color: #e67e22;
+  color: var(--redlike);
   font-size: 5rem;
   padding: 2rem 0;
 }
@@ -459,7 +467,7 @@ section {
 }
 
 .plan .box-container .box .list p span {
-  color: #e67e22;
+  color: var(--redlike);
 }
 
 .plan .box-container .box .amount {
@@ -589,7 +597,7 @@ section {
 }
 
 .footer .credit span {
-  color: #e67e22;
+  color: var(--redlike);
 }
 
 @media (max-width: 991px) {
