@@ -654,13 +654,6 @@ section {
     display: inline-block;
   }
 
-  .contact {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
 
   .header .navbar {
     position: absolute;
@@ -693,13 +686,7 @@ section {
     width: 90%;
   }
 
-  .contact {
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
 }
 
 /*# TESTIMONIALS********************************************* */
@@ -936,4 +923,42 @@ section {
   font-size: 16px;
   font-weight: 500;
   color: #2553b8;
+}
+
+
+
+/* -----------------RESPONSIVE -------------*/
+
+
+@media (max-width: 991px) {
+  .contact {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .contact {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .contact {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 }
