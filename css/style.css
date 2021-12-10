@@ -269,6 +269,9 @@ section {
   display: none;
 }
 
+
+/*# HOME ********************************************* */
+
 .home {
   min-height: 100vh;
   display: -webkit-box;
@@ -321,6 +324,8 @@ section {
   height: 12rem;
 }
 
+/*# ABOUT ********************************************* */
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -366,6 +371,9 @@ section {
   line-height: 2;
 }
 
+
+/*# SERVICES ********************************************* */
+
 .services .box-container {
   display: -ms-grid;
   display: grid;
@@ -403,6 +411,9 @@ section {
   color: #130f40;
   padding: 1rem 0;
 }
+
+/*# OUR PLAN  ********************************************* */
+
 
 .plan .box-container {
   display: -ms-grid;
@@ -480,6 +491,9 @@ section {
   font-size: 3rem;
 }
 
+
+/*# CONTACT  ********************************************* */
+
 .contact {
   padding: 2rem 0;
   display: -webkit-box;
@@ -491,6 +505,11 @@ section {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 3rem;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 68%;
 }
 
 .contact .image {
@@ -635,6 +654,14 @@ section {
     display: inline-block;
   }
 
+  .contact {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
   .header .navbar {
     position: absolute;
     top: 99%;
@@ -665,9 +692,17 @@ section {
   .header .login-form {
     width: 90%;
   }
+
+  .contact {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# TESTIMONIALS********************************************* */
 
 
 .demo {
