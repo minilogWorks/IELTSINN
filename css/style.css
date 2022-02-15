@@ -373,7 +373,9 @@ section {
 
 
 /*# SERVICES ********************************************* */
-
+.services li{
+  list-style: none;
+}
 .services .box-container {
   display: -ms-grid;
   display: grid;
@@ -815,6 +817,7 @@ section {
 }
 
 @media (max-width: 991px) {
+
   html {
     font-size: 55%;
   }
@@ -845,6 +848,15 @@ section {
 }
 
 @media (max-width: 768px) {
+
+  .home{
+    background: url(../images/mobilebg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  
+    }
+    
   #menu-btn {
     display: inline-block;
   }
@@ -873,6 +885,10 @@ section {
 }
 
 @media (max-width: 450px) {
+  .home{
+    min-height: 68vh;
+   
+  }
   html {
     font-size: 50%;
   }
