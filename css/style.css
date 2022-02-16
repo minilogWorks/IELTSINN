@@ -481,7 +481,7 @@ section {
 
 .plan .box-container .box .list p span {
   color: var(--redlike);
-  word-spacing: 30px;
+  word-spacing: 5px;
 }
 
 /* .plan .box-container .box .amount {
@@ -494,6 +494,7 @@ section {
   font-size: 2.5rem;
   font-weight: bolder;
   color: #130f40;
+  word-spacing: 10px;
 }
 
 .plan .box-container .box .amount span {

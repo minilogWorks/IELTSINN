@@ -65,7 +65,7 @@ if($_POST) {
 
        
        //Recipients
-       $mail->addAddress('info@ieltsinn.com', 'Mailer');     //Add a recipient
+       $mail->addAddress('tutors@ieltsinn.com', 'Mailer');     //Add a recipient
    
      
        //Content
